@@ -1,0 +1,562 @@
+/* Begin of Nav Bar CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+body a {
+ color: #028A0F;
+}
+
+body a:hover {
+    text-decoration: none;
+    color: #028A0F;
+    font-weight: 600;
+}
+
+.background {
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+.navbar-toggler-icon {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-toggler {
+    color: #000000 !important;
+    border: none !important;
+    font-weight: 600!important;
+}
+
+li a {
+    color: #000000!important;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400!important;
+}
+li a:hover {
+    color: #028A0F!important;
+}
+.menu:hover {
+    border-bottom: 4px solid #028A0F;
+    padding-bottom: 5px;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    padding-left: -10px;
+    padding-left: 0px!important;
+    margin-left: 1.5rem;
+}
+
+ul {
+    margin-right: 60px;
+}
+
+#logo {
+    width: 150px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top:-15px!important;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 170%!important;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 1.5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #000000;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    font-weight: 400!important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1.5rem!important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #028A0F!important;
+    background-color: #ffff!important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400!important;
+}
+
+/* Body of the website */
+
+.jumbotron {
+    border-radius: 0%;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.49);
+    color: #fff;
+    position: relative;
+    top:100px;
+    z-index: 10;
+    margin-bottom: 100px;
+}
+
+.home-page-jumbotron {
+    background: url(images/working-on-laptop.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.display-4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center!important;
+    font-weight: 600;
+    padding-top: 100px;
+    font-size: 2.5rem;
+}
+
+.lead {
+    text-align: center!important;
+}
+
+.jumbotron p {
+    text-align: center!important;
+}
+
+.card-body {
+    text-align: center!important;
+}
+
+/* Serviços */
+
+#servicesTitle {
+    text-align: center!important;
+    font-weight: 600;
+}
+
+#servicesText{
+    padding-bottom: 40px!important;
+    text-align: center!important;
+}
+
+.imgServicos {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.serviceBackground .card-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.serviceBackground .card-text {
+    font-size: 16px;
+}
+
+.serviceBackground .card:hover {
+    box-shadow: 5px 5px #cecece;
+}
+
+/* Cases */
+
+#caseTitle {
+    text-align: center!important;
+    font-weight: 600;
+    padding-bottom: 40px!important;
+}
+
+.serviceBackground {
+    padding-top: 40px;
+    padding-bottom: 100px!important;
+}
+
+.caseBackground {
+    padding-top: 50px;
+}
+
+.caseBackground .card-title {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+}
+
+.caseBackground .card-text {
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Call to Action */
+
+#ctaBackground {
+    background: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#ctatitulo{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.ctatexto {
+    color: #ffffff;
+    font-size: 19px;
+}
+
+/* Contato */
+
+.ctaContato {
+    font-size: 18px;
+}
+
+.form-control, #name {
+    border: none;
+    border-bottom: 1px solid #cecece;
+    border-radius: 0 0 0 0 ;
+}
+
+.contatoBackground {
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+}
+
+/* Footer */
+
+.footer {
+    height: 80px!important;
+    padding-bottom: 30px!important;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Css para Serviços */
+
+/* Begin of Breadcrumbs */
+
+.breadcrumb {
+    background-color: #ffffff!important;
+}
+.breadcrumb-item.active {
+    font-size: 13px;
+}
+ol a {
+    font-size: 13px;
+}
+
+/* End of Breadcrumbs */
+
+.jumbotronSEO {
+    background: url(images/services-top-background.jpg) no-repeat;
+    background-size: cover; 
+    height: calc(97vh - 120px);
+    border-radius: 0%;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.49);
+    color: #fff;
+}
+
+.leadSEO {
+    padding-top: 20px;
+}
+
+#ctatituloSEO{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+#ctaSubTitulo {
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.3rem;
+}
+.ctaTextoSEO {
+    font-size: 17px!important;
+    color: #ffffff!important;
+}
+
+.containerTestemunhos {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#testemunhosTitle {
+    text-align: center!important;
+    font-weight: 600;
+    padding-top: 50px!important;
+}
+
+.testemunhoh5 {
+    font-weight: 600!important;   
+}
+
+/* Css para Pagina de Sobre Nós */
+
+
+.sobre-nos-jumbo {
+    height: 400px;
+    background: url("images/sobre-nos.jpg") no-repeat;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.zoom {
+  padding: 20px;
+  transition: transform .2s;
+  width: 350px;
+  height: 202px;
+}
+
+.zoom:hover {
+  transform: scale(1.3);
+}
+
+.style-effect {
+    margin: 0px 20px;
+}
+
+.sobre-nos-bg {
+    padding: 0px 35px; 
+    padding-top: 50px;
+}
+
+.sobre-nos-bg p {
+    font-size: 1.1rem;
+}
+
+.sobre-nos-title {
+    padding-bottom: 20px;
+}
+
+/* Css para Pagina de Contato */
+
+.contact-jumbo {
+    height: 400px;
+    background: url("images/contact-background.jpg") no-repeat;
+}
+
+.contato-page-bg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+}
+
+.contact-content {
+    text-align: center;
+    width: 500px;
+}
+
+.contact-content h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+
+.contact-img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-content p {
+    padding-top: 20px;
+}
+
+/* Blog Page */
+
+.blog-page-jumbo {
+    background: url("images/blog-bg-img.jpg")no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.blog-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 50px;
+    padding-top:50px;
+}
+
+.featured-blog-content {
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    padding-left: 20px;
+    width: 400px;
+}
+
+.featured-blog-content h2 {
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 1.5rem;
+    width: 380px;
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+
+.featured-blog-content p {
+    width: 360px;
+    font-size: 1rem;
+}
+
+.featured-blog-content a {
+    color: #000000;
+}
+
+.featured-blog-content a:hover {
+    color: #028A0F;
+}
+
+.small-blog-bg {
+    padding-right: 220px ; 
+}
+
+
+
+
+/* Renponsive Design */
+
+@media (max-width: 1048px){
+    #logo {
+        width: 150px;
+        height: 100px;
+        margin-left: 100px;
+        margin-top:-15px!important;
+    }
+
+    .menu:hover {
+        border-bottom: none!important;
+    }   
+}
+
+@media (max-width: 992px){
+    #logo {
+        width: 150px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top:-15px!important;
+    }
+    .menu:hover {
+        border-bottom: none!important;
+    }
+    .contatoBackground {
+        align-items: center;
+        padding: 50px 40px 50px 40px;
+  }
+
+  .featured-blog-content {
+    width: 500px;
+    padding-bottom: 20px;
+    }
+
+    .featured-blog-content h2 {
+        width: 480px;
+    }
+    
+    .featured-blog-content p {
+        width: 480;
+    }
+}
+
+@media (max-width: 600px){
+    #logo {
+        width: 150px;
+        height: 100px;
+        margin-left: 40px;
+        margin-top:-15px!important;
+    }
+    .menu:hover {
+        border-bottom: none!important;
+    }
+    .contatoBackground {
+        align-items: center;
+        padding: 50px 40px 50px 40px;
+  }
+   .display-4 {
+        text-align: center!important;
+        font-weight: 600;
+        padding-top: 100px;
+        font-size: 2.2rem;
+    }
+    .leadTwo {
+       padding-bottom: 100px;
+       font-size: 18px!important; 
+    }
+    .lead {
+        font-size: 18px!important; 
+    }
+    .seoCardDeck {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .card {
+        padding-top: 20px;
+    }
+    .testemunho__dois {
+        padding-top:20px
+    }
+
+    /* Pagina de Contato */
+
+    .sobre-nos-jumbo {
+        height: 300px;
+        width: 100%;
+    }
+
+    /* Pagina de Blog */
+
+    .featured-blog-content {
+        width: 350px;
+        padding-bottom: 20px;
+    }
+
+    .img-featured-blog {
+        width: 350px;
+        height: auto;
+    }
+
+    .featured-blog-content h2 {
+        width: 330px;
+    }
+    
+    .featured-blog-content p {
+        width: 330px;
+    }
+
+    .blog-flex-container {
+        justify-content: center;
+    }
+    
+}
