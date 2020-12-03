@@ -328,8 +328,9 @@ ol a {
 
 
 .sobre-nos-jumbo {
-    height: 400px;
     background: url("images/sobre-nos.jpg") no-repeat;
+    background-size:cover;
+    height: 600px;
 }
 
 .flex-container {
@@ -370,8 +371,9 @@ ol a {
 /* Css para Pagina de Contato */
 
 .contact-jumbo {
-    height: 400px;
     background: url("images/contact-background.jpg") no-repeat;
+    background-size:cover;
+    height: 600px;
 }
 
 .contato-page-bg {
@@ -541,7 +543,7 @@ ol a {
     /* Pagina de Contato */
 
     .sobre-nos-jumbo {
-        height: 300px;
+        height: 600px;
         width: 100%;
     }
 
