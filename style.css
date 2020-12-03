@@ -140,6 +140,16 @@ ul {
     text-align: center!important;
 }
 
+.card-deck a {
+    color: #000000;
+}
+
+.card-deck a:hover {
+    color: #000000;
+    font-weight: 400;
+}
+
+
 /* Serviços */
 
 #servicesTitle {
@@ -273,7 +283,7 @@ ol a {
 .jumbotronSEO {
     background: url(images/services-top-background.jpg) no-repeat;
     background-size: cover; 
-    height: calc(97vh - 120px);
+    height: 600px;
     border-radius: 0%;
     box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.49);
     color: #fff;
