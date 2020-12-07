@@ -1,10 +1,10 @@
 User-agent: *
 Allow: /index.html
-Allow: /sobre-nos.html
-Allow: /servicos-de-seo.html
-Allow: /desenvolvimento-criacao-de-website-ecommerce.html
-Allow: /consultoria-de-anuncios-com-google-ads.html
-Allow: /contato.html
-Allow: /obrigado.html
+Allow: /about-us.html
+Allow: /search-engine-optimization-seo-services.html
+Allow: /google-ads-consultancy.html
+Allow: /web-design-web-development.html
+Allow: /contact.html
+Allow: /thank-you.html
 Allow: /blog/index.html
-Allow: /blog/guia-seo-fazer-site-aparecer-google.html
+Allow: /blog/seo-guide-make-site-appear-google.html
